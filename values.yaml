@@ -262,7 +262,7 @@ wso2:
       config:
          deployment.toml: |-
           [server]
-          hostname = "{{ template "am-pattern-3.resource.prefix" . }}-mi-1-service-internal"
+          hostname = "wso2am-pattern-3-mi-1-service-internal"wso2am-pattern-3-am-cp-service-internal
           http_port = 8290
           https_port = 8253
           # offset  = 10
