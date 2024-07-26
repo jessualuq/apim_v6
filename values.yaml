@@ -288,24 +288,7 @@ wso2:
           password = "wso2carbon"
           alias = "symmetric.key.value"
           algorithm = "AES"				
-
-          [mediation]
-          synapse.enable_xpath_dom_failover=true
-
-          ## Following are set of example configs. Please refer docs for complete set of configurations.
-
-          # [transport.http]
-          # socket_timeout = 180000   # timeout in milliseconds
-          # disable_connection_keepalive = false
-          # connection_timeout = 90000 # in milliseconds
-
-          # [[datasource]]
-          # id = "WSO2CarbonDB"  # "WSO2_COORDINATION_DB"
-          # url = "jdbc:mysql://localhost:3306/integratordb"
-          # username = "root"
-          # password = "root"
-          # driver = "com.mysql.jdbc.Driver"
-
+         
           [[datasource]]
           id = "WSO2_COORDINATION_DB"
           url= "jdbc:oracle:thin:@iusslbddesa04.justicia.junta-andalucia.es:1521/pdbdesa04.justicia.junta-andalucia.es"
