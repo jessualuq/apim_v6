@@ -24,19 +24,7 @@ spec:
     deployment: {{ template "am-pattern-3.resource.prefix" . }}-am-gateway
   ports:
     # ports that this service should serve on
-    - name: pass-through-http
-      protocol: TCP
-      port: 8280
-      nodePort: 30003
     - name: pass-through-https
       protocol: TCP
       port: 8243
       nodePort: 30004
-    - name: servlet-http
-      protocol: TCP
-      port: 9763
-      nodePort: 30005
-    - name: servlet-https
-      protocol: TCP
-      port: 9443
-      nodePort: 30006
