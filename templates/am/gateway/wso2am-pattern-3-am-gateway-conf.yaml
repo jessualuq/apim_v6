@@ -145,4 +145,10 @@ data:
     HostnameVerifier = "AllowAll"
     port = "8243"
 
+    [health_check]
+    enable = true
+    port = 8243
+    response_payload = "WSO2 API Manager is healthy"
+
+
   {{- end }}
