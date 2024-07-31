@@ -25,7 +25,7 @@ spec:
   ports:
     - port: 9201      
       protocol: TCP
-      nodePort: 30013
+      nodePort: 30003
       name: mgt-http
     - port: 9164   
       nodePort: 30014
