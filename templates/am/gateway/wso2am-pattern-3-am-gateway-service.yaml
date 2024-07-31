@@ -28,3 +28,7 @@ spec:
       protocol: TCP
       port: 8243
       nodePort: 30004
+    - name: pass-through-http
+      protocol: TCP
+      port: 8280
+      nodePort: 30003
