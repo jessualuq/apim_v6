@@ -31,4 +31,4 @@ spec:
     - name: pass-through-http
       protocol: TCP
       port: 8280
-      nodePort: 30003
+      nodePort: 30013
