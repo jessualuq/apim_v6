@@ -32,3 +32,11 @@ spec:
       protocol: TCP
       port: 8280
       nodePort: 30013
+    - name: servlet-http
+      protocol: TCP
+      port: 9763
+      nodePort: 30005
+    - name: servlet-https
+      protocol: TCP
+      port: 9443
+      nodePort: 30006
